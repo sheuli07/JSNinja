@@ -1,16 +1,17 @@
 var name = 'Sheuli Mondal' 
 const IAM = 'Mana'
 let a = 10;
-
-name = 'Priyanka'
-
+var b = 20;
 function abc(){
-    let a = 5
+     a = 5
+     b = 30;
     console.log(a);
+    console.log(b);
 }
 
 abc();
 console.log(a);
-
+console.log(b);
 console.log(name);
 console.log(IAM);
+// abc();
