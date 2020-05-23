@@ -130,6 +130,8 @@
 
 // var y = new mycar1(9,8,7)  // mycar1 is not a constructor
 
+
+
 //how "this" work in js
 
 // let user={
@@ -173,3 +175,173 @@
 
 // playerList.display();
 // otherList.display1();
+
+
+// Arrow functions have no "this"... here arrow() uses this from the outer user.sayHi() method.
+
+// let user ={
+//     name: "sheuli",
+//     vill: "bowrah",
+
+//     abc(){
+//     let arrow = ()=> console.log(this.vill);
+//     arrow();
+//     }
+// }
+
+// user.abc();
+
+
+//CALLBACK FUNCTION
+
+// function sum(a,b, callback){
+//     console.log(`sum is ${a+b}`)
+//     callback();
+// }
+
+//     function disp(){     //1st way to call another function
+//         console.log("after sum function this function will called")
+// }
+
+// sum(30, 40, disp);
+
+// sum(20, 30, function disp(){  // another way to call function 
+//     console.log("another way to call a function using callback")
+// })
+
+// function greeting(name) {
+//     console.log('Hello ' + name);
+//   }
+  
+//   function processUserInput(callback) {
+//     var name = "sheuli"
+//     callback(name);
+//   }
+  
+//   processUserInput(greeting);
+
+//CLOSURE EXAMPLE
+
+// var i =10;
+// function outerFunction(){
+//     var j = 20;
+//     console.log(`The result is ${j/i}`);
+
+//     function innerFunction(){
+//         var k = 30
+//         console.log(`Total value is ${ (j/i) * k}`)
+//     }
+//     innerFunction();
+// };
+
+// outerFunction();
+
+
+// function constructor
+
+// function user(name, state){
+// this.name = name;
+// this.state = state 
+
+// }
+
+// let display = new user("ram", "wb")
+
+// console.log(display)
+// console.log(display.name)
+// console.log(display.state)
+
+
+// Destructuring assignment
+
+// let a, b, rest;
+// [a, b] = [10, 20]
+// [a, b, ...rest] = [10, 20, 30, 40, 50, 60]
+// ({a, b, ...rest} = {a:20, b:30, c:40, d:50})
+                                                                                                                                                                                               
+// console.log(a);
+// console.log(b);
+// console.log(rest);
+
+// const x = [1, 2, 3, 4]
+// const [a, b] = x;
+
+// console.log(a)
+// console.log(b)
+
+// const foo =["sheuli", "joydeep", "priyanka", "mana"] //Array destructuring
+
+// const [x, y, z] = foo;
+// console.log(x)
+// console.log(y)
+// console.log(z)
+
+
+
+// let a, b;   //default value example
+
+// [a=2, b=5] = [10, 17];
+// console.log(a); 
+// console.log(b); 
+
+
+// let r=15; // swapping value
+// let s=20;
+
+// [r, s] = [s, r]
+// console.log(r); 
+// console.log(s); 
+
+
+// function abc(){   //Parsing an array returned from a function
+//     return [3, 4, 5, 6];
+// }
+
+// let [a, b, c, d] = abc()
+// let [a, b, , d] = abc()  // we can Ignore some returned values
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(d);
+
+
+// Object destructuring
+
+// let user ={
+//     name: "sheuli",
+//     age: 25
+// }
+
+// const {name, age} = user
+
+// console.log(name)
+// console.log(age)
+
+
+//REST Parameters
+
+// function abc(...input){
+//     let sum = 0;
+//     for(let i of input){
+//      sum +=i
+//     }
+//     return sum;
+// }
+
+// console.log(abc(1,2, 4))
+
+// console.log(abc(1,2, 4, 5, 10, 6))
+
+
+// function showName(firstName, lastName, ...titles) {
+//     console.log( firstName + ' ' + lastName ); 
+
+//     console.log( titles ); 
+//     console.log( titles[0] ); 
+//     console.log( titles[1] );
+//     console.log( titles.length );
+//   }
+  
+//   showName("sheuli", "Mondal", "Bowrah", "Jara", "WB");
+
