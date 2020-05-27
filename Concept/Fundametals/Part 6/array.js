@@ -1,5 +1,5 @@
 //how to create array
-// var arr = new Array()
+var arr = new Array()
 // console.log(arr)
 // var arr1 = []
 // console.log(arr1)
@@ -76,7 +76,7 @@
 // var reverse_result = arr.reverse()  //reverse
 // console.log(reverse_result)
 
-
+//-----------------------splice()-----------------------
 // var fruits = ["Banana", "Orange", "Apple", "Mango"];
 // var result = fruits.splice(1, 2, "banana", "grapes")
 // console.log(result)
@@ -112,23 +112,23 @@
 
 //---------------------reduce()--------------
 
-var arr = [10,20,30,40]
+// var arr = [10,20,30,40]
 
-function sumofarray (sum, num){
-    return sum + num
-}
+// function sumofarray (sum, num){
+//     return sum + num
+// }
 
-function abc(item){
-    console.log(arr.reduce(sumofarray))
-}
+// function abc(item){
+//     console.log(arr.reduce(sumofarray))
+// }
 
-abc()
+// abc()
 
 
 //--------------sort()--------
 
-// const months = ['March', 'Jan', 'Feb', 'Dec'];
-const months = [100, 6, 90,5,100,1];
+const months = ['March', 'Jan', 'Feb', 'Dec'];
+// const months = [100, 6, 90,5,100,1];
 months.sort()
 console.log(months)
 
