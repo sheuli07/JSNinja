@@ -28,7 +28,7 @@
 // var myfunction = function(){
 //     console.log("hiiii")
 // }
-// //IIFE
+// 
 
 // myfunction();
 
@@ -64,13 +64,13 @@
 // var x = new abc(6, 5)
 // console.log(x)
 
-// // var user = (a, b)=>{
-// //     this.a = a 
-// //     this.b = b 
-// //     return a+b
-// // }
+// var user = (a, b)=>{
+//     this.a = a 
+//     this.b = b 
+//     return a+b
+// }
 
-// // var x = new user(4, 8)
+// var x = new user(4, 8)
 
 
 // function abc(){
@@ -79,6 +79,7 @@
 
 // abc();
 
+//IIFE
 // (function(){
 //     console.log(`I'm anonymous`)
 // })()

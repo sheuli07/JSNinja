@@ -152,7 +152,7 @@
 // console.log(a)
 
 
-// console.log(Object.keys(obj1).length)
+// console.log(Object.keys(obj1).length)  //checking object length
 
 
 // let obj2 = {

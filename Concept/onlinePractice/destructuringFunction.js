@@ -88,13 +88,27 @@
     // b=90
     // arr[1] = 90
     //arr
-}
+// }
 
 // abc(array)
 // console.log(array)
 
 
 
+// ---------------------how work it is---------------
+
+let obj ={
+    name:"sheuli",
+    age: 25,
+    live: "blr"
+}
+
+// let { name, age } = obj //similar
+
+let name = {...obj}["name"] //similar
+let age = {...obj}["age"]
+
+name = "shghgggdgghdgds"
 
 
-
+console.log(obj.name)

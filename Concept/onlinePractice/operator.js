@@ -1,7 +1,7 @@
 // var result = null;
 // var test = "student are intelligent and are very and good and rerere"
 // var x = result.concat(result).concat(test).concat(result) // chaining
-// is is not possible to apply some built in function on null or undefined, So we have to guard all these thing to handle error.
+// it is not possible to apply some built in function on null or undefined, So we have to guard all these thing to handle error.
 
 // var x = test.replace(/and/g, '&')
 // console.log(test.length)
