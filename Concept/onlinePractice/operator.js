@@ -18,11 +18,9 @@
 // console.log(a)
 // console.log(b)
 
-
 //var a; // hoisting
 //var a; //declaration
 //a = 6; // Initialization
-
 
 //console.log(a) // use
 
@@ -31,18 +29,13 @@
 //     console.log(val)
 // }
 
-
 // JS only hoist declaration not Initialization
 // let can not be hoisted. (only var)
-
-
-
 
 // console.log(a)
 
 // a = 6;
 // var a;
-
 
 // let a = 5;
 // var b = 5;
@@ -62,10 +55,7 @@
 //   console.log(a)
 // }
 
-// var c = a++ // 
-
-
-
+// var c = a++ //
 
 // console.log(c)
 // // console.log(a)
@@ -73,14 +63,12 @@
 // console.log( 3 != '3') // value is equal sp false
 // console.log( 3 !== '3')  // type is not equal // true
 
-
 // let a = true
 // let b = true
 // let c = false
 // let d = false
 
 // // let e = a && d || b && a
-
 
 // let e = 'Cat' && false
 
@@ -91,7 +79,7 @@
 // console.log( e )
 
 // false && anything = false ( right side won't be executed )
-// true || some = true 
+// true || some = true
 
 // function fn (){
 //     console.log(' hey there')
